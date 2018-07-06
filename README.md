@@ -1,10 +1,12 @@
 # Cypress template with Cucumber support for Visual Studio Code
 
-This template uses the default setup from https://www.cypress.io/ + Cucumber preprocessor and Cucumber Full Support.
+This template uses the default setup from https://www.cypress.io/ + Cucumber preprocessor and Cucumber Full Support. 
+
+You only need to install the Cucumber Full Support extension to make this work and npm installed. 
 
 ## Cucumber preprocessor
 This is an npm install. See https://github.com/TheBrainFamily/cypress-cucumber-preprocessor
-. Now you can use Feature files and step definitions.
+. Now you can use Feature files and step definitions. This is in the package. 
 
 ``` gherkin
 Feature: The Facebook
