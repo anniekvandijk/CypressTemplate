@@ -1,0 +1,13 @@
+{
+    "name": "cypress-template",
+    "version": "1.0.0",
+    "description": "Cypress minimal template",
+    "author": "Anniek van Dijk",
+    "scripts": {
+        "cypress:open": "cypress open"
+    },
+    "devDependencies": {
+        "cypress": "3.0.2",
+        "cypress-cucumber-preprocessor": "1.0.0"
+    }
+}
