@@ -1,0 +1,7 @@
+node_modules
+
+# Cypress tests
+cypress/screenshots
+cypress/screenshotsFolder
+cypress/videos
+cypress/videosFolder
