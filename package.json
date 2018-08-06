@@ -4,10 +4,13 @@
     "description": "Cypress minimal template",
     "author": "Anniek van Dijk",
     "scripts": {
-        "cypress:open": "cypress open"
+        "cypress:open": "cypress open",
+        "cypress:run": "cypress run"
     },
     "devDependencies": {
-        "cypress": "3.0.2",
-        "cypress-cucumber-preprocessor": "1.0.0"
+        "cypress": "3.0.3",
+        "cypress-cucumber-preprocessor": "1.2.2",
+        "eslint": "^5.2.0",
+        "eslint-plugin-cypress": "^2.0.1"
     }
 }

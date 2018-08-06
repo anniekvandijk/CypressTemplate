@@ -1,7 +1,9 @@
-node_modules
+# Dependency directories
+/node_modules
 
 # Cypress tests
-cypress/screenshots
-cypress/screenshotsFolder
-cypress/videos
-cypress/videosFolder
+/cypress/screenshots
+/cypress/screenshotsFolder
+/cypress/videos
+/cypress/videosFolder
+/support/
