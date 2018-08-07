@@ -7,3 +7,6 @@
 /cypress/videos
 /cypress/videosFolder
 /support/
+
+# Jetbrains usersettings
+.idea

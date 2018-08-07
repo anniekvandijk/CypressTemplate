@@ -1,5 +1,6 @@
 Feature: Go to Cypress
 
-    Scenario: Open website Cypress
-        Given I go to the website https://example.cypress.io
-        Then I see Cypress.io: Kitchen Sink in the title
+  Scenario: Open website Cypress
+    Given I go to the website "https://example.cypress.io"
+    Then I see Cypress.io: Kitchen Sink in the title
+    And the logo name should be cypress.io

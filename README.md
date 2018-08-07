@@ -51,3 +51,25 @@ First open Cypress with this command:
 npm run cypress:open
 ```
 In the open Cypress app you can select one of the testruns to run. There are 2 runs. The one with a feature file and the one without Cucumber.
+
+## Webstorm and Cypress-Cucumber
+
+https://github.com/TheBrainFamily/cypress-cucumber-preprocessor
+
+WebStorm Support
+If you want WebStorm to resolve your steps, use the capitalized Given/When/Then function names (instead of the initial given/when/then). Unfortunately, at this point WebStorm only understands regexp syntax:
+
+```javascript 
+Given(/^user navigated to the Start page?/, () => { });
+```
+Or a backtick syntax but without Cucumber Expressions :-(. In other words, this works:
+
+```javascript
+Given(`user navigated to the start page`, () => { });
+Then(/(.*?) is chosen/, choice => {})
+```
+But this doesn't:
+```javascript
+Then(`{word} is chosen`, choice => {})
+```
+(See #56)
