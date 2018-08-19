@@ -5,8 +5,8 @@ The Step Definition can be a regular expression or a Cucumber expression.
 
 // Example with cucumber expression.
 Given('I go to the website {string}', (url) => {
-    cy.visit(url)
-  });
+  cy.visit(url)
+});
   
  // Example with regulair expression.  
 Then(/^I see (.*) in the title$/, (title) => {

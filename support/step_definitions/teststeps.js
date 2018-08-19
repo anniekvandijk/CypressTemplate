@@ -8,14 +8,15 @@ The Step Definition can be a regular expression or a Cucumber expression.
 // Example with cucumber expression.
 Given('I go to the website {string}', function (url) {
   cy.visit(url);
-}); // Example with regulair expression.  
+});
 
+// Example with regulair expression.
 Then(/^I see (.*) in the title$/, function (title) {
   cy.title().should('include', title);
 }); // Example without expression
 
-Then("the logo name should be cypress.io", function () {
-  cy.get('navbar-brand').should('have.text', "cypress.io");
+Then('the logo name should be cypress.io', function () {
+  cy.get('.navbar-brand').should('have.text', "cypress.io");
 });
 
 },{}]},{},[1]);
