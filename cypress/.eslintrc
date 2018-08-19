@@ -1,8 +1,17 @@
 {
-  "plugins": [
-      "cypress"
-  ],
   "env": {
-      "cypress/globals": true
-  }
+    "es6": true,
+    "node": true,
+    "cypress/globals": true
+  },
+  "globals": {
+    "Cypress": false,
+    "cy": false,
+    "Given": false,
+    "When": false,
+    "Then": false
+  },
+  "plugins": [
+    "cypress"
+  ]
 }
